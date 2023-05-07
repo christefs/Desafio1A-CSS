@@ -1,0 +1,55 @@
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.parent {
+    
+    width: 60%;
+    height: 80%;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    
+    background-color: #E5E7E9;
+    border-radius: 30px;
+
+    
+
+}
+.box {
+    /*
+    width: 80%;
+    height: 30%;*/
+    background-color: red;
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 60px;
+
+    bottom: 30px;
+    border-radius: 10px;
+
+    
+    
+}
+
+.box h3 {
+    text-align: center;
+    line-height: 60px;
+}
+
+
+p {
+    
+    justify-content: left;
+
+    margin-right: 40px;
+    margin-left: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: large;
+    
+       
+}
